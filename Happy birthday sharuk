@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Bestie! 💖</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        
+        body { 
+            background: linear-gradient(135deg, #ffebee 0%, #fce4ec 100%);
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            font-family: 'Indie Flower', cursive; 
+            text-align: center; 
+        }
+
+        .wrapper {
+            padding: 10px;
+        }
+
+        .emojis-top {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            animation: bounce 2s infinite;
+        }
+
+        .polaroid { 
+            background: white; 
+            padding: 15px 15px 50px 15px; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15); 
+            transform: rotate(-3deg); 
+            border-radius: 4px; 
+            display: inline-block;
+            max-width: 290px;
+        }
+
+        .polaroid img { 
+            width: 100%; 
+            height: auto; 
+            border: 1px solid #eee; 
+            border-radius: 2px;
+        }
+
+        .caption { 
+            font-size: 1.8rem; 
+            color: #222; 
+            margin-top: 15px;
+            line-height: 1.4;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="emojis-top">🎉 🥳 🎈</div>
+        
+        <div class="polaroid">
+            <img src="PHOTO_NAME_HERE" alt="Best Friend">
+            
+            <div class="caption">
+                Happy Birthday to My Best Friend! 🎂<br>
+                Thank you for always being there for me. ✨<br>
+                Have an amazing day! ❤️
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
